@@ -30,3 +30,20 @@ header {
     text-align: center; /* Выровняйте текст */
     color: white; /* Укажите цвет текста */
   }
+  .about {
+    padding: 40px 20px;
+    display: flex; /* Используйте Flexbox */
+    justify-content: space-between ; /* Выровняйте содержимое */
+    gap: 20px; /* Укажите расстояние между элементами */
+  }
+  
+  .about-text {
+    flex: 1; /* Задайте, как текст будет занимать пространство */
+    min-width: 250px;
+  }
+  
+  .about img {
+    flex: 1;
+    max-width: 400px; /* Установите максимальную ширину изображения */
+    border-radius: 10px; /* Добавьте скругленные углы */
+  }
