@@ -1,9 +1,9 @@
 header {
-    background-color: lightblue; /* Цвет фона */
-    color: white; /* Цвет текста */
+    background-color: lightblue; 
+    color: white;
     padding: 20px 0;
-    text-align: center; /* Выравнивание текста по левому краю */
-    position: fixed; /* Фиксируем шапку */
+    text-align: center; 
+    position: fixed; 
     top: 0;
     width: 100%;
   }
@@ -46,4 +46,23 @@ header {
     flex: 1;
     max-width: 400px; /* Установите максимальную ширину изображения */
     border-radius: 10px; /* Добавьте скругленные углы */
+  }
+  .services {
+    background-color: lightgoldenrodyellow; /* Цвет фона */
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex; /* Используйте Flexbox */
+    justify-content: center; /* Выровняйте карточки */
+    gap: 20px; /* Расстояние между карточками */
+  }
+  
+  .card {
+    background-color: white; /* Цвет фона карточки */
+    padding: 20px;
+    width: 250px; /* Укажите ширину карточки */
+    border-radius: 10px; /* Скруглите углы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Добавьте тень */
   }
