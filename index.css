@@ -19,3 +19,14 @@ header {
     text-decoration: none; 
     padding: 50px;
   }
+  .hero-section {
+    background-image: url("https://i.pinimg.com/564x/17/b4/71/17b471df203f41c1384fed21f273d288.jpg"); /* Добавьте ссылку на изображение */
+    background-size: cover; /* Укажите размер фона */
+    background-position: center; /* Позиционируйте изображение */
+    height: 100vh; /* Укажите высоту секции */
+    display: flex; /* Используйте Flexbox */
+    justify-content: center; /* Выровняйте элементы по горизонтали */
+    align-items: center; /* Выровняйте элементы по вертикали */
+    text-align: center; /* Выровняйте текст */
+    color: white; /* Укажите цвет текста */
+  }
