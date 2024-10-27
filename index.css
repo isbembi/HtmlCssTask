@@ -1,0 +1,21 @@
+header {
+    background-color: lightblue; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 20px 0;
+    text-align: center; /* Выравнивание текста по левому краю */
+    position: fixed; /* Фиксируем шапку */
+    top: 0;
+    width: 100%;
+  }
+  
+  nav {
+    display: 50; /* Выровняйте ссылки по горизонтали */
+    justify-content: center;
+    gap: 20px; /* Укажите расстояние между ссылками */
+  }
+  
+  nav a {
+    color: blue; /* Укажите цвет ссылок */
+    text-decoration: none; 
+    padding: 50px;
+  }
